@@ -6,20 +6,20 @@ function TodoList() {
     const [title, setTitle] = useState('');
 
     useEffect(() => {
-        axios.get('http://localhost:7243/api/Todo')
-            .then(response => console.log(response)) // setTodos(response.data)
+        axios.get('https://localhost:7243/api/Todo')
+            .then(response => setTodos(response.data)) // setTodos(response.data)
             .catch(error => console.log(error));
-    }, []);
+    });
 
     const addTodo = () => {
-        axios.post('http://localhost:7243/api/Todo', { title, completed: false })
+        axios.post('https://localhost:7243/api/Todo', { title, completed: false })
             .then(response => setTodos([...todos, response.data]))
             .catch(error => console.log(error));
     };
 
     const toggleCompletion = (id) => {
         const todo = todos.find(todo => todo.id === id);
-        axios.put(`http://localhost:7243/api/Todo/${id}`, { ...todo, completed: !todo.completed })
+        axios.put(`https://localhost:7243/api/Todo/${id}`, { ...todo, completed: !todo.completed })
             .then(response => setTodos(todos.map(todo => todo.id === id ? response.data : todo)))
             .catch(error => console.log(error));
     };

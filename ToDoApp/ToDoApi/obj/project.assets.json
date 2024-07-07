@@ -4790,19 +4790,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mkarakaya\\.nuget\\packages\\": {}
+    "C:\\Users\\mert\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mkarakaya\\source\\repos\\ToDoApp\\ToDoApi\\ToDoApi.csproj",
+      "projectUniqueName": "C:\\Users\\mert\\repos\\todo\\ToDoApp\\ToDoApi\\ToDoApi.csproj",
       "projectName": "ToDoApi",
-      "projectPath": "C:\\Users\\mkarakaya\\source\\repos\\ToDoApp\\ToDoApi\\ToDoApi.csproj",
-      "packagesPath": "C:\\Users\\mkarakaya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mkarakaya\\source\\repos\\ToDoApp\\ToDoApi\\obj\\",
+      "projectPath": "C:\\Users\\mert\\repos\\todo\\ToDoApp\\ToDoApi\\ToDoApi.csproj",
+      "packagesPath": "C:\\Users\\mert\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mert\\repos\\todo\\ToDoApp\\ToDoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mkarakaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mert\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

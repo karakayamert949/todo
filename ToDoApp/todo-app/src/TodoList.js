@@ -24,6 +24,12 @@ function TodoList() {
             .catch(error => console.log(error));
     };
 
+    const deleteTodo = (id) => {
+        axios.delete(`https://localhost:7243/api/Todo/${id}`)
+            .then(response => console.log(`Todo with ID ${id} deleted successfully.`))
+            .catch(error => console.log(error));
+    };
+
     return (
         <div>
             <h1>Todo List</h1>
@@ -36,6 +42,7 @@ function TodoList() {
                             {todo.title}
                         </span>
                         <button onClick={() => toggleCompletion(todo.id)}>Toggle</button>
+                        <button onClick={() => deleteTodo(todo.id)}>Delete</button>
                     </li>
                 ))}
             </ul>

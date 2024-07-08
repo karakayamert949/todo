@@ -273,3 +273,6 @@ c:\Users\mert\repos\todo\ToDoApp\ToDoApi\obj\Debug\net8.0\refint\ToDoApi.dll
 c:\Users\mert\repos\todo\ToDoApp\ToDoApi\obj\Debug\net8.0\ToDoApi.pdb
 c:\Users\mert\repos\todo\ToDoApp\ToDoApi\obj\Debug\net8.0\ToDoApi.genruntimeconfig.cache
 c:\Users\mert\repos\todo\ToDoApp\ToDoApi\obj\Debug\net8.0\ref\ToDoApi.dll
+c:\Users\mkarakaya\source\repos\ToDoApp\ToDoApi\obj\Debug\net8.0\ToDoApi.sourcelink.json
+c:\Users\mkarakaya\source\repos\ToDoApp\ToDoApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+c:\Users\mkarakaya\source\repos\ToDoApp\ToDoApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

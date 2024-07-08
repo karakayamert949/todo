@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mert\\repos\\todo\\ToDoApp\\ToDoApi\\ToDoApi.csproj": {}
+    "c:\\Users\\mkarakaya\\source\\repos\\ToDoApp\\ToDoApi\\ToDoApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mert\\repos\\todo\\ToDoApp\\ToDoApi\\ToDoApi.csproj": {
+    "c:\\Users\\mkarakaya\\source\\repos\\ToDoApp\\ToDoApi\\ToDoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mert\\repos\\todo\\ToDoApp\\ToDoApi\\ToDoApi.csproj",
+        "projectUniqueName": "c:\\Users\\mkarakaya\\source\\repos\\ToDoApp\\ToDoApi\\ToDoApi.csproj",
         "projectName": "ToDoApi",
-        "projectPath": "c:\\Users\\mert\\repos\\todo\\ToDoApp\\ToDoApi\\ToDoApi.csproj",
-        "packagesPath": "C:\\Users\\mert\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mert\\repos\\todo\\ToDoApp\\ToDoApi\\obj\\",
+        "projectPath": "c:\\Users\\mkarakaya\\source\\repos\\ToDoApp\\ToDoApi\\ToDoApi.csproj",
+        "packagesPath": "C:\\Users\\mkarakaya\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\mkarakaya\\source\\repos\\ToDoApp\\ToDoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mkarakaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +46,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"

@@ -1,9 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 function TodoList() {
     const [todos, setTodos] = useState([]);
     const [title, setTitle] = useState('');
+    const navigate = useNavigate();
+    const handleExit = () => {
+        // Clear any authentication tokens or user data from local storage
+        localStorage.removeItem('token');
+        // Navigate to the login page
+        navigate('/');
+    };
 
     useEffect(() => {
         axios.get('https://localhost:7243/api/Todo')
@@ -32,6 +40,7 @@ function TodoList() {
 
     return (
         <div>
+            <button onClick={handleExit}>Exit</button>
             <h1>Todo List</h1>
             <input value={title} onChange={(e) => setTitle(e.target.value)} />
             <button onClick={addTodo}>Add</button>

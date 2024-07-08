@@ -2,30 +2,30 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const Login = () => {
+const Register = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
-    const handleRegister=() => navigate('/register');
+    const handleLogin=() => navigate('/');
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://localhost:7243/api/users/login', {
+            const response = await axios.post('https://localhost:7243/api/users/register', {
                 username,
                 password,
             });
             localStorage.setItem('token', response.data.token);
-            alert('Login successful');
-            navigate('/todo');
+            alert('Register successful');
+            navigate('/');
         } catch (error) {
-            alert('Login failed');
+            alert('Register failed');
         }
     };
 
     return (
         <>
-            <button onClick={handleRegister}>Register</button>
+            <button onClick={handleLogin}>Login</button>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>Username</label>
@@ -35,10 +35,10 @@ const Login = () => {
                     <label>Password</label>
                     <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
                 </div>
-                <button type="submit">Login</button>
+                <button type="submit">Sign up</button>
             </form>
         </>
     );
 };
 
-export default Login;
+export default Register;

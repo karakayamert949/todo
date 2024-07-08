@@ -21,22 +21,23 @@ namespace ToDoApi.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register(UserDto userDto)
+        public async Task<IActionResult> Register(UserCreateDto userCreateDto)
         {
             // Check if username is already taken
-            var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Username == userDto.Username);
+            var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Username == userCreateDto.Username || u.Email == userCreateDto.Email);
             if (existingUser != null)
             {
-                return BadRequest("Username already exists");
+                return BadRequest("Username or email already exists");
             }
 
             // Hash the password
-            var passwordHash = BCrypt.Net.BCrypt.HashPassword(userDto.Password);
+            var passwordHash = BCrypt.Net.BCrypt.HashPassword(userCreateDto.Password);
 
             // Create new user entity
             var newUser = new User
             {
-                Username = userDto.Username,
+                Username = userCreateDto.Username,
+                Email = userCreateDto.Email,
                 PasswordHash = passwordHash // Store hashed password
                 // Add other properties as needed
             };
@@ -46,20 +47,21 @@ namespace ToDoApi.Controllers
             await _context.SaveChangesAsync();
 
             return Ok("User registered successfully");
+
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(UserDto userDto)
+        public async Task<IActionResult> Login(UserLoginDto userLoginDto)
         {
             // Retrieve the user from database
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == userDto.Username);
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == userLoginDto.Username);
             if (user == null)
             {
                 return Unauthorized("Invalid credentials");
             }
 
             // Validate password
-            if (!BCrypt.Net.BCrypt.Verify(userDto.Password, user.PasswordHash))
+            if (!BCrypt.Net.BCrypt.Verify(userLoginDto.Password, user.PasswordHash))
             {
                 return Unauthorized("Invalid credentials");
             }

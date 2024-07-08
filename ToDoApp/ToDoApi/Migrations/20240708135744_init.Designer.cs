@@ -11,7 +11,7 @@ using ToDoApi;
 namespace ToDoApi.Migrations
 {
     [DbContext(typeof(TodoContext))]
-    [Migration("20240708112411_init")]
+    [Migration("20240708135744_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -51,6 +51,10 @@ namespace ToDoApi.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsAdmin")
                         .HasColumnType("bit");

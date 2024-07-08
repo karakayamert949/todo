@@ -19,7 +19,8 @@ const Login = () => {
             alert('Login successful');
             navigate('/todo');
         } catch (error) {
-            alert('Login failed');
+            const message = error.response.data.errors ? Object.values(error.response.data.errors).join('\n') : 'Login Failed';
+            alert(message);
         }
     };
 

@@ -24,7 +24,7 @@ namespace ToDoApi.Controllers
         public async Task<IActionResult> Register(UserCreateDto userCreateDto)
         {
             // Check if username is already taken
-            var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Username == userCreateDto.Username || u.Email == userCreateDto.Email);
+            var existingUser = await _context.MK_Users.FirstOrDefaultAsync(u => u.Username == userCreateDto.Username || u.Email == userCreateDto.Email);
             if (existingUser != null)
             {
                 return BadRequest("Username or email already exists");
@@ -43,7 +43,7 @@ namespace ToDoApi.Controllers
             };
 
             // Save user to the database
-            _context.Users.Add(newUser);
+            _context.MK_Users.Add(newUser);
             await _context.SaveChangesAsync();
 
             return Ok("User registered successfully");
@@ -54,7 +54,7 @@ namespace ToDoApi.Controllers
         public async Task<IActionResult> Login(UserLoginDto userLoginDto)
         {
             // Retrieve the user from database
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == userLoginDto.Username);
+            var user = await _context.MK_Users.FirstOrDefaultAsync(u => u.Username == userLoginDto.Username);
             if (user == null)
             {
                 return Unauthorized("Invalid credentials");

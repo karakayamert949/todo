@@ -38,7 +38,7 @@ namespace ToDoApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Todos");
+                    b.ToTable("MK_Todos");
                 });
 
             modelBuilder.Entity("ToDoApi.User", b =>
@@ -53,12 +53,12 @@ namespace ToDoApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("IsAdmin")
-                        .HasColumnType("bit");
-
                     b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Username")
                         .IsRequired()
@@ -66,7 +66,46 @@ namespace ToDoApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("MK_Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "test@gmail.com",
+                            PasswordHash = "$2a$11$Xk5yUtunrxQbDISnVUSzaubLNcGgqvOZE1TZeAn1BqTG4y5/MIjka",
+                            RoleId = 2,
+                            Username = "admin"
+                        });
+                });
+
+            modelBuilder.Entity("ToDoApi.UserRole", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MK_UserRoles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Role = "Admin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Role = "User"
+                        });
                 });
 #pragma warning restore 612, 618
         }

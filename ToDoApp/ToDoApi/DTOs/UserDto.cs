@@ -7,7 +7,7 @@ public class UserDto
     public required string Email { get; set; }
     public required string Username { get; set; }
     public required string Password { get; set; }
-    public bool IsAdmin { get; set; }
+    public int RoleId { get; set; }
 }
 
 // For creating or updating a user

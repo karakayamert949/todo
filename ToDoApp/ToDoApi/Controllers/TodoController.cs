@@ -17,14 +17,14 @@ public class TodoController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<Todo>> GetTodos()
     {
-        var todos = _context.Todos.ToList();
+        var todos = _context.MK_Todos.ToList();
         return Ok(todos);
     }
 
     [HttpPost]
     public ActionResult<Todo> PostTodo(Todo todo)
     {
-        _context.Todos.Add(todo);
+        _context.MK_Todos.Add(todo);
         _context.SaveChanges();
         return CreatedAtAction(nameof(GetTodos), new { id = todo.Id }, todo);
     }
@@ -43,11 +43,11 @@ public class TodoController : ControllerBase
     [HttpDelete("{id}")]
     public IActionResult DeleteTodo(int id)
     {
-        var todo = _context.Todos.Find(id);
+        var todo = _context.MK_Todos.Find(id);
         if (todo == null)
             return NotFound();
 
-        _context.Todos.Remove(todo);
+        _context.MK_Todos.Remove(todo);
         _context.SaveChanges();
         return NoContent();
     }

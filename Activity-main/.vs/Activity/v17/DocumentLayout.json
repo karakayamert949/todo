@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE6CA698-E519-49B1-9515-CA88412559CD}|PL\\PL.csproj|c:\\users\\mkarakaya\\source\\repos\\activity-main\\pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE6CA698-E519-49B1-9515-CA88412559CD}|PL\\PL.csproj|solutionrelative:pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06688F87-05C6-4E9B-A1B6-197E3A3F79AF}|DAL\\DAL.csproj|c:\\users\\mkarakaya\\source\\repos\\activity-main\\dal\\repositories\\concreterepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06688F87-05C6-4E9B-A1B6-197E3A3F79AF}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\concreterepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE6CA698-E519-49B1-9515-CA88412559CD}|PL\\PL.csproj|c:\\users\\mkarakaya\\source\\repos\\activity-main\\pl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE6CA698-E519-49B1-9515-CA88412559CD}|PL\\PL.csproj|solutionrelative:pl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0663929-D42A-449E-8F6F-0AE7EF013D35}|BLL\\BLL.csproj|c:\\users\\mkarakaya\\source\\repos\\activity-main\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0663929-D42A-449E-8F6F-0AE7EF013D35}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06688F87-05C6-4E9B-A1B6-197E3A3F79AF}|DAL\\DAL.csproj|c:\\users\\mkarakaya\\source\\repos\\activity-main\\dal\\repositories\\interfacerepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06688F87-05C6-4E9B-A1B6-197E3A3F79AF}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\interfacerepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0663929-D42A-449E-8F6F-0AE7EF013D35}|BLL\\BLL.csproj|c:\\users\\mkarakaya\\source\\repos\\activity-main\\bll\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0663929-D42A-449E-8F6F-0AE7EF013D35}|BLL\\BLL.csproj|solutionrelative:bll\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE6CA698-E519-49B1-9515-CA88412559CD}|PL\\PL.csproj|c:\\users\\mkarakaya\\source\\repos\\activity-main\\pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE6CA698-E519-49B1-9515-CA88412559CD}|PL\\PL.csproj|solutionrelative:pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0663929-D42A-449E-8F6F-0AE7EF013D35}|BLL\\BLL.csproj|c:\\users\\mkarakaya\\source\\repos\\activity-main\\bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0663929-D42A-449E-8F6F-0AE7EF013D35}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0663929-D42A-449E-8F6F-0AE7EF013D35}|BLL\\BLL.csproj|c:\\users\\mkarakaya\\source\\repos\\activity-main\\bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0663929-D42A-449E-8F6F-0AE7EF013D35}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06688F87-05C6-4E9B-A1B6-197E3A3F79AF}|DAL\\DAL.csproj|c:\\users\\mkarakaya\\source\\repos\\activity-main\\dal\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06688F87-05C6-4E9B-A1B6-197E3A3F79AF}|DAL\\DAL.csproj|solutionrelative:dal\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\BLL\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\BLL\\Services\\IUserService.cs",
+              "RelativeToolTip": "BLL\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T05:48:14.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\PL\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PL\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\PL\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PL\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T04:59:21.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\DAL\\Repositories\\InterfaceRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\InterfaceRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\DAL\\Repositories\\InterfaceRepository\\IUserRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\InterfaceRepository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:49:46.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "BLL\\Services\\UserService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAtwDsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:32:06.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\DAL\\Repositories\\ConcreteRepository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\ConcreteRepository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\DAL\\Repositories\\ConcreteRepository\\UserRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\ConcreteRepository\\UserRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:31:41.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\PL\\appsettings.json",
+              "RelativeDocumentMoniker": "PL\\appsettings.json",
+              "ToolTip": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\PL\\appsettings.json",
+              "RelativeToolTip": "PL\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-16T07:44:26.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\BLL\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\BLL\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:35:51.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\PL\\Program.cs",
+              "RelativeDocumentMoniker": "PL\\Program.cs",
+              "ToolTip": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\PL\\Program.cs",
+              "RelativeToolTip": "PL\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:23:57.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\DAL\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\DAL\\Models\\Role.cs",
+              "RelativeToolTip": "DAL\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:12:09.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\BLL\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\mkarakaya\\source\\repos\\Activity-main\\BLL\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:05:54.228Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
